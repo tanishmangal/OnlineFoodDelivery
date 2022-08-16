@@ -44,8 +44,7 @@ public class Address {
 	@ManyToMany(cascade = CascadeType.ALL)
 	private List<Customer> customers;
 	
-	@OneToMany(cascade = CascadeType.ALL)
-	private List<Restaurant> restaurants=new ArrayList<>();
+	
 	
 	
 
